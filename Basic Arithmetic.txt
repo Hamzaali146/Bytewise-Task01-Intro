@@ -1,0 +1,10 @@
+1 a = 10
+2 b = 3
+3 print ( ' Addition : , a + b )
+4 print ( ' Subtraction : ' , a - b)
+5 print ( ' Multiplication: ' , a * b )
+6 print ( ' Division( float ) : ' , a / b )
+7 print ( ' Division( floor ) : ' , a // b )
+8 print ( ' Modulus : ' , a % b )
+9 print ( ' Exponent : ' , a ** b)
+                           

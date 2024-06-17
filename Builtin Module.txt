@@ -1,0 +1,65 @@
+__future__              Future statement definitions
+
+__main_               The environment where top-level code is run. Covers command-line interfaces,
+                       import-time behavior, and “_name__ a
+
+_thread__               Low-level threading APL.
+
+abc                     Abstract base classes accoraing to -pep. 3179 .
+aife                    Deprecated: Read and write audio files in AIFF or AIFC format.
+argparse                Command-line option and argument parsing library.
+array                   Space efficient arrays of uniformly typed numeric values.
+ast                     Abstract Syntax Tree classes and manipulation.
+asynchat                Deprecated: Support for asynchronous command/response protocols.
+asyncio                 Asynchronous /O.
+asyncore                Deprecated: A base class for developing asynchronous socket handling services.
+atexit                  Register and execute cleanup functions.
+
+audioop                 Deprecated: Manipulate raw audio data
+
+base64                  RFC 4648: Base16, Base32, Base64 Data Encodings; Base85 and Ascii85
+bdb                     Debugger framework.
+
+binascii                Tools for converting between binary and various ASClI-encoded binary representations.           
+
+binhex                  Encode and decode files in binhex4 format.
+bisect                  Array bisection algorithms for binary searching.
+builtins                The module that provides the built-in namespace.
+bz2                     Interfaces for bzip2 compression and decompression.
+
+calendar                Functions for working with calendars, including some emulation of the Unix cal program.             
+
+cei                     Deprecated: Helpers for running Python scripts via the Common Gateway Interface.
+
+cgitb                   Deprecated: Configurable traceback handler for CGI scripts.
+chunk                   Deprecated: Module to read IFF chunks.
+
+cmath                   Mathematical functions for complex numbers.
+cmd                     Build line-oriented command interpreters.
+code                    Facilities to implement read-eval-print loops.
+codecs                  Encode and decode data and streams.
+
+codeop                  Compile (possibly incomplete) Python code.  
+ 
+collections             Container datatypes
+colorsys                Conversion functions between RGB and other color systems
+
+compileall              Tools for byte-compiling all Python source files in a directory tree.
+
+concurrent              
+configparser            Configuration file parser.
+contextlib              Utilities for with-statement contexts.     
+contextvars             Context Variables
+
+copy                    Shallow and deep copy operations.  
+
+copyreg                 Register pickle support functions.
+
+cProfile               
+crypt (Unix)            Deprecated: The crypt() function used to check Unix passwords.
+csv                     Write and read tabular data to and from delimited files.
+
+ctypes                   A foreign function library for Python
+
++ curses (Unix)          An interface to the curses library, providing portable terminal handling.
+

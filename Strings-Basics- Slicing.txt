@@ -1,0 +1,21 @@
+msg = ' welcome to t \ ' s Python 101 : Strings '
+print ( msg )
+print ( msg.upper ( ) )
+print ( msg.lower ( ) )
+print ( msg.capitalize ( ) )
+print ( msg.title ( ) )
+
+len():
+is used to find how many characters letters are there in a particular word.
+
+msg = ' welcome to Python 101 : Strings '
+print ( msg )
+print ( len ( msg ) )
+print ( msg.count ( ' q ' ) )
+
+#.count is used to count the specific letter characters and other
+#slicing :
+is used to determine the position of the letter or character! to use slicing starts with [] for e.g: print('type here '[3])
+
+print(msg[2:13]) #here : means that number of letter after 2nd positon till 13nth position.
+

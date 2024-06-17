@@ -1,0 +1,57 @@
+                                             
+                                                          LIST 
+We can make a list in which we can add multiple items for e.g:
+grocery_items= ['glass','cup','ketchup','mayo']                                  note:list always start with []
+
+we can also sort the list by sorting function that is:
+        grocery_items.sort()
+        print(grocery_items)
+we can also sort in reverse for this task to be done we use:-
+         grocery_items.sort(reverse=True)
+                  or
+           grocery_items.sort(reverse)
+then print using print(grocery_items)
+
+                  We can also find minimum maximum and sum of the list by using min,max and sum :-
+                        
+                                             print(min(grocery_items))
+                                                       or
+                                             print(max(grocery_items))
+                                                       or
+                                             print(sum(grocery_items))
+
+if we want to add something in a list then we have functions of append , insert , extend
+
+1)Append:-
+if we want to include something suppose i have to include a spoon then we have to write
+                             grocery_items.append('spoon')
+then we get result in our console that is:
+                          ['glass','cup','ketchup','mayo','spoon']
+
+2)insert:-
+  in this function we are overlaying an item for e.g i am placing spoon in the position of cup that is 1
+                                grocery_items.insert(1,'spoon') here 1 is the position where we are placing spoon
+result we get:-
+                                    ['glass','spoon','ketchup','mayo'] 
+ or we can to exact same thing as:
+                             grocery_items[1]='spoon'
+3)remove:to remove something
+grocery_items.remove('cup')           
+
+4)extend to ad new list in existing once
+grocery_items.extend(new-list)
+
+5)pop:-
+grocery_items.pop(1) here 1 is the postion
+
+6)clear:-
+grocery_items.clear()
+
+
+                                                     DEFINING POSITION
+
+                                          ['glass','spoon','ketchup','mayo']
+                                              0       1        2        3
+                           here 1 , 2 , 3 ,0 are the position of the particular items on the list
+
+

@@ -1,0 +1,15 @@
+Find Syntax:
+msg='Welcome to Python 101: Strings'
+print(msg.find('Python'))
+
+Replace Syntax:
+msg='Welcome to Python 101: Strings'
+print(msg.replace('Python','C'))
+
+Strings Formatting:
+name='TERRY'
+color = 'RED'
+msg = '[' + name + '] loves the color ' + color.lower() + '!'
+msg1 = f'[{name.capitalize()}] loves the color {color.lower()}!'
+print(msg)
+print(msg1)
